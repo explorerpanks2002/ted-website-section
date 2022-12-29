@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../common.css">
+    <link rel="stylesheet" href="studio_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Talks Studio</title>
+</head>
+<body bgcolor="black"> 
+
+    <!-- NavBar starts-->
+    <nav id="primary">
+        <a id="logoId" href="../index.html">
+            <img id="logo" src="../Images/TEDxlogo2.svg" alt="TEDx logo">
+        </a>
+        <div id="list">
+            <a href="../index.html" class="tabs">HOME</a>
+            <a class="tabs active" onclick="myFunction()" id="talksTab">TALKS</a>
+                <div class="dropDownMenu close" id="myDropdown">
+                    <a href="../Talks/talks.html" id="dropDownTabs">TEDxIITGuwahati</a>
+                    <a href="#" id="dropDownTabs" class="active">TEDxIITGuwahatiStudio</a>
+                </div>
+            <a href="https://tedxiitguwahati.in/" class="tabs">EVENTS</a>
+            <a href="../About_Us/AboutUs.html" class="tabs">ABOUT US</a>
+            <a href="../Contact_Us/ContactUs.html" class="tabs">CONTACT US</a>
+            <img src="../Images/toggleMenuIcon-white.jpg" alt="MENU" width="50px" id="toggleMenu" onclick="changeMenu()">
+        </div>
+    </nav>
+    <div id="leftContainer" class="close">
+        <nav id="leftNav">
+        <img src="../Images/b_cross.svg" width="20px" id="closeMenu" onclick="changeMenu()">
+        <a href="../index.html" class="leftTabs">HOME</a>
+        <a href="#" class="leftTabs" onclick="myFunctionleft()" id="myDropdown">TALKS</a>
+            <div class="leftdropDownMenu close" id="myDropdownleft">
+            <a href="../Talks/talks.html" id="leftdropDownTabs">TEDxIITGuwahati</a>
+            <a href="#" id="leftdropDownTabs" class="active">TEDxIITGuwahatiStudio</a>
+            </div>
+        <a class="leftTabs" href="https://tedxiitguwahati.in/">EVENTS</a>
+        <a href="../About_Us/AboutUs.html" class="leftTabs">ABOUT US</a>
+        <a href="../Contact_Us/ContactUs.html" class="leftTabs">CONTACT US</a>
+        </nav>
+    </div>
+    <!-- Navbar ends -->
+<div class="main_body">
+        <h3 style="padding-top: 20px;" data-aos="fade-up" data-aos-easing="ease-in" data-aos-duration="1200">TEDxIITGuwahatiStudio</h3>
+        <p data-aos="fade-up" data-aos-easing="ease-in" data-aos-duration="1200">
+            TEDxIIT GuwahatiStudio license allows us to spotlight compelling new ideas anytime, anywhere, and independent of any TEDx event. 
+            Under the Studio license, we can produce talks that convey independent and powerful ideas without the constraints of a theme or an 
+            annual event. At TEDxIITGuwahatiStudio, we strive to bring together bright minds to give talks that are idea-focused, and on a wide 
+            range of subjects, to foster learning, inspiration and wonder-and provoke conversations that matter. TEDxIITGuwahatiStudio is planning 
+            to produce a series of talks, featuring various speakers from diverse fields.
+            <br><br>
+            Do you have your own idea or perspective, you believe, needs to be shared?
+            Do you wish to be a tedx speaker at our event? 
+            <br>
+            We invite you to submit a speaker nomination!
+            To nominate yourself as a speaker for our tedx event, fill out the speaker nomination form. kindly keep in mind that our curators will choose speakers at their discretion, based on the ideal fit to our theme. once submitted, all nominations will remain in our speaker database for further consideration, as we plan our upcoming flagship event in February 2023.
+        </p>
+
+        <a href="https://form.typeform.com/to/FME8FL15" target="_blank" class="nominateBtn" data-aos="fade-up" data-aos-easing="ease-in" data-aos-duration="1200">Fill Here &nbsp<i class="fa-solid fa-arrow-right">&nbsp</i></a>
+        <h3 data-aos="fade-left" data-aos-easing="ease-in" data-aos-duration="1200">2021 EVENT'S TALK</h3>
+        <div class="carousel" data-aos="fade-right" data-aos-easing="ease-in" data-aos-duration="1200">
+            <button class='flt-left' onclick="slideRight(this,0);"><i class="fa fa-circle-chevron-left" aria-hidden="true" style="color:red;font-size:25px"></i></button>
+            <div class="row flt-left">
+            <div class="row-container row-container1">
+            <div class="card">
+                <div class="card-content">
+                    <div onclick="play(id);" id="FmR7NaYtUnY" class="thumbnail" style="background: black url('../Images/studio_speakers/speaker3.jpg') no-repeat center;"></div>
+                    <h5>Helia Singh</h5>
+                    <p>Flip the Coin and ask "Why Not"</p>
+                </div>
+            </div>
+           
+            <div class="card">
+                <div class="card-content">
+                    <div onclick="play(id);" id="m2Oue_AMEEM" class="thumbnail" style="background: black url('../Images/studio_speakers/Akshita.png') no-repeat center;"></div>
+                    <h5>Akshita Jain</h5>
+                    <p>The Jungle always watches you .</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div onclick="play(id);" id="V1DOdQfPsgg" class="thumbnail" style="background: black url('../Images/studio_speakers/speaker2.jpg')  no-repeat center;"></div>
+                    <h5>Binayak Acharya</h5>
+                    <p>Changing how we learn and bridging the digital divide</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div onclick="play(id);" id="SAq8Ad_KgIc" class="thumbnail" style="background: black url('../Images/studio_speakers/speaker1.jpg')  no-repeat center;"></div>
+                    <h5>VR Raman</h5>
+                    <p>How multilayer discrimination shapes manual scavenging?</p>
+                </div>
+            </div>
+            
+                                 
+            <div class="clear"></div>
+            </div>
+            
+            </div>
+            <button class='flt-left'  onclick="slideLeft(this,0);"><i class="fa fa-circle-chevron-right" aria-hidden="true" style="color:red;font-size:25px"></i></button>
+            <div class="clear"></div>
+        </div> 
+        
+</div>
+
+
+<!-- footer code starts here -->
+<div class="footer_mainbox">
+    <div><hr></div>
+    
+    <div class="footer_box">
+        <div  class="tedex_logo footer_sub_boxes" id="sub_box1"><a href="https://www.iitg.ac.in/sa/tedxiitg"><img src="https://res.cloudinary.com/dtkm20qt9/image/upload/v1667908600/ted_nauf8g.png" alt="ted_image" id="ted_image" ></a></div>  
+  
+  
+        <div class="footer_sub_boxes" id="sub_box2">
+            <div class="headings_top"> <b>TEDxIITGuwahati </b> </div>
+            <div class="links"><a href="../index.html">Home</a></div>
+            <div class="links"><a href="../Talks/talks.html">Talks</a></div>
+            <div class="links"><a href="../About_Us/AboutUs.html">About Us</a></div>
+            <div class="links"><a href="../Contact_Us/ContactUs.html">Contact Us</a></div>
+        </div>
+  
+  
+  
+        <div class="footer_sub_boxes" id="sub_box3">
+            <div class="headings_top"> <b> EVENTS</b></div>
+            <div class="links"><a href="../Talks/talks.html">TEDxIITGuwahati</a></div>
+            <div class="links"> <a href="../Talks_Studio/Talks_Studio.html">TEDxIITGuwahati Studio</a></div>
+        </div>
+  
+  
+        <div class="footer_sub_boxes" id="sub_box4">
+            <div class="headings_top" id="follow_us"> <b> Follow Us</b></div>
+            <div class=" links3"><a href="https://www.facebook.com/TEDxIITGuwahati/" target="_blank">Facebook</a></div>
+            <div class=" links3"><a href="https://www.instagram.com/tedxiitguwahati/" target="_blank">Instagram</a></div>
+            <div class=" links3"><a href="https://www.linkedin.com/company/tedx-iit-guwahati" target="_blank">Linkedin</a></div>
+            <div class=" links3"><a href="https://twitter.com/tedxiitg" target="_blank">Twitter</a></div>
+            <div class=" links3"><a href="https://tedxiitguwahati.medium.com/" target="_blank">Medium</a></div>
+        </div>
+    </div>
+    <div><hr ></div>
+    
+  
+    <div>
+        <div class="headings_bottom"> <b> Ideas Worth Spreading  </b></div>
+        <div class="footer_foot">
+        <div class="foot_text" id="license_text">This independent TEDx is operated under license from TED.</div>
+        <div class="foot_text" id="copyright_text">© 2019-2022 TEDxIITGuwahati. All rights reserved</div>
+    </div>
+    </div>
+  
+  
+  </div>
+  <!-- footer code ends here -->
+
+    <script src="./studio.js">
+
+    </script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+</body>
+</html>
